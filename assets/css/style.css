@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color:royalblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+header {
+    padding: 20px;
+    font-family: cursive;
+    background-color: thistle;
+    color: midnightblue;
+}
+header h1 {
+    display: inline-block;
+    font: size 76px;
+}
+
+header a {
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    
+}
+
+
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(red, green, blue, alpha)
+}
+
+header nav ul li a:hover {
+    background: saddlebrown;
+    color: papayawhip;
+    border-radius: 15px;
+    
+}
+
+footer {
+    padding: 20px;
+    font-family: cursive;
+    background-color: thistle;
+    color: midnightblue;
+}
+
+footer h2 {
+    display: inline-block;
+    font: size 76px;
+}
+
+footer div {
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+}
+
+footer div div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+footer div div {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+footer div div {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(red, green, blue, alpha)
+}
+
+footer div div :hover {
+    background: saddlebrown;
+    color: papayawhip;
+    border-radius: 15px;
+    
+}
