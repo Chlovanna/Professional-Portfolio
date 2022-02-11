@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: lightslategrey;
+    font-family: 'Times New Roman', Times, serif;   
+}   
+
+header {
+    padding: 20px;
+    font-family: fantasy;
+    background-color: rgb(112, 95, 95);
+    color: rgba(90, 22, 22, 0.329);
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 76px;
+    color: bisque;  
+}
+
+header a {
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+}
+
+header nav {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header nav a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.2vw;
+    text-shadow: 0 0 10px midnightblue;
+}
+
+header nav a :hover{
+    background: saddlebrown;
+    color: papayawhip;
+}
+
+.hero {
+    height: 400px;
+    width:auto;
+    margin-bottom: 25px;
+    background-image: url("../images/Header.png");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.hero div h2 {
+    color: darkgreen;
+}
+
+
+
+.flex-row {
+    width: 40%;
+    height: 45vh;
+    background-color: rgb(117, 126, 95);
+    color: blanchedalmond;
+    justify-content: space-evenly;
+    }
+
+.left {
+    width: 25%;
+    height: 17vh;
+    background-color: brown;
+    color: aquamarine;
+}
+
+.right {
+    width: 25%;
+    height: 17vh;
+    margin: 30%;
+    background-color: yellowgreen;
+    text-align: left;
+    color: rgb(17, 14, 214)
+}
+
+.run a  {
+    height:100px;
+    width:auto;
+    margin-bottom: 25px;
+    background-image: url("../images/hero-bg.jpg");
+    }
+
+    
+
+
+.java img {
+    height: 400px;
+    width:auto;
+    margin-bottom: 25px;
+    background-image: url(../images/Calculator.jfif);
+    background-size: cover;
+    background-position: relative;
+}
+.java div h3 {
+    background-position: absolute;
+
+}
