@@ -1,100 +1,104 @@
 *{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+box-sizing: border-box;
+margin: 0;
+padding: 0;
 }
 
 body {
-    color:royalblue;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+background-color:lightgrey;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 header {
-    padding: 20px;
-    font-family: cursive;
-    background-color: thistle;
-    color: midnightblue;
+padding: 20px;
+font-family: inherit;
+background-color:rgb(112, 95, 95);
+color: rgb(114, 114, 141);
 }
+
 header h1 {
-    display: inline-block;
-    font: size 76px;
+display: inline-block;
+font: size 76px;
+color: beige;
 }
 
 header a {
-    text-decoration: underline;
-    text-decoration-thickness: 5px;
-    
+text-decoration: underline;
+text-decoration-thickness: 5px;
 }
 
 
+header nav {
+display: flex;
+flex-wrap: nowrap;
+justify-content: flex-end;
+align-items: center;
+}
 
-header nav ul {
+header nav  a {
+padding: 10px 15px;
+font-weight: lighter;
+font-size: 1.2vw;
+text-shadow: 0 0 10px rgba(red, green, blue, alpha)
+}
+
+header nav a:hover {
+background: saddlebrown;
+color: papayawhip;
+border-radius: 15px;
+}
+
+.hero {
+    height: 400px;
+    width:auto;
+    margin-bottom: 25px;
+    background-image: url("../images/Header.png");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.hero div h2 {
+    color: blanchedalmond;
+    text-align: end;
+   /* need help with the alignment; tried flexbox...couldn't get it*/
+ 
+  }
+
+
+
+
+
+
+.flex-container {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-}
-
-header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
-}
-
-header nav ul li a {
-    padding: 10px 15px;
-    font-weight: lighter;
-    font-size: 1.55vw;
-    text-shadow: 0 0 10px rgba(red, green, blue, alpha)
-}
-
-header nav ul li a:hover {
-    background: saddlebrown;
-    color: papayawhip;
-    border-radius: 15px;
+    flex-direction: row;
     
 }
 
-footer {
-    padding: 20px;
-    font-family: cursive;
-    background-color: thistle;
-    color: midnightblue;
+.flex-row {
+    width: 40%;
+    height: 45vh;
+    background-color: rgb(117, 126, 95);
+    text-align: left;
+    color: rgb(196, 250, 0);
+
 }
 
-footer h2 {
-    display: inline-block;
-    font: size 76px;
+.left {
+   width: 17% ;
+   height: 10vh;
+   
+   background-color: brown;
+   text-align: left;
+   color: blanchedalmond;
 }
 
-footer div {
-    text-decoration: underline;
-    text-decoration-thickness: 5px;
-}
-
-footer div div {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-}
-
-footer div div {
-    display: inline-block;
-    margin-left: 25px;
-}
-
-footer div div {
-    padding: 10px 15px;
-    font-weight: lighter;
-    font-size: 1.55vw;
-    text-shadow: 0 0 10px rgba(red, green, blue, alpha)
-}
-
-footer div div :hover {
-    background: saddlebrown;
-    color: papayawhip;
-    border-radius: 15px;
-    
+.right {
+  width: 17% ;
+   height: 10vh;
+   margin: 20%;
+   background-color:yellow;
+   text-align: left;
+   color:rgb(17, 14, 214);
 }
