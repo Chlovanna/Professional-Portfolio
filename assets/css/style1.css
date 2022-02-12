@@ -5,21 +5,21 @@
 }
 
 body{
-    background-color: lightslategrey;
+    background-color: rgb(211, 224, 236);
     font-family: 'Times New Roman', Times, serif;   
 }   
 
 header {
     padding: 20px;
     font-family: fantasy;
-    background-color: rgb(112, 95, 95);
-    color: rgba(90, 22, 22, 0.329);
+    background-color: rgb(19, 19, 54);
+    color: rgba(173, 198, 32, 0.329);
 }
 
 header h1 {
     display: inline-block;
     font-size: 76px;
-    color: bisque;  
+    color:rgba(236, 177, 105, 0.74);  
 }
 
 header a {
@@ -38,7 +38,7 @@ header nav a {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.2vw;
-    text-shadow: 0 0 10px midnightblue;
+    text-shadow: 0 0 10px rgb(198, 198, 223);
 }
 
 header nav a :hover{
@@ -46,65 +46,105 @@ header nav a :hover{
     color: papayawhip;
 }
 
-.hero {
-    height: 400px;
-    width:auto;
-    margin-bottom: 25px;
-    background-image: url("../images/Header.png");
-    background-size: cover;
-    background-position: center;
-
-}
-
-.hero div h2 {
-    color: darkgreen;
+#about-me img {
+    width: 200px;
+    height: 300px;  
+    object-fit: scale-down ;
+   
 }
 
 
+div h2 {
+    text-align: center;
+    text-emphasis-style: filled ;
+    color: rgb(252, 252, 252);
+    background-color: rgb(150, 146, 88);
+    width: 344px;
+    border-right: 3 solid rgb(49, 47, 48);
+}
 
-.flex-row {
-    width: 40%;
-    height: 45vh;
-    background-color: rgb(117, 126, 95);
-    color: blanchedalmond;
-    justify-content: space-evenly;
+
+
+.flex-container {
+    padding: 12vh 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+@media (min-width: 40rem) {
+    .flex-container {
+        flex-direction: row;
     }
-
-.left {
-    width: 25%;
-    height: 17vh;
-    background-color: brown;
-    color: aquamarine;
 }
 
-.right {
-    width: 25%;
-    height: 17vh;
-    margin: 30%;
-    background-color: yellowgreen;
-    text-align: left;
-    color: rgb(17, 14, 214)
+.row2 {
+    margin: 0 1vw;
+    position: relative;
 }
 
-.run a  {
-    height:100px;
-    width:auto;
-    margin-bottom: 25px;
-    background-image: url("../images/hero-bg.jpg");
-    }
+.row2 img {
+    width: 500px;
+    height: 800px;
+    object-fit:contain;
+}
 
+
+.row2 h3 {
+    color: rgb(9, 9, 228);
+    font-size: 25px;
+    font-weight: bolder;
+    font-style: oblique;
+    position: absolute;
+}
+
+.run img {
+    width: 500px;
+    height: 800px;
+    object-fit: scale-down;
+}
+
+
+.flew-row {
+   display: flex;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#contact-me{
+    display: flex;
+    justify-content: space-between;
     
 
-
-.java img {
-    height: 400px;
-    width:auto;
-    margin-bottom: 25px;
-    background-image: url(../images/Calculator.jfif);
-    background-size: cover;
-    background-position: relative;
 }
-.java div h3 {
-    background-position: absolute;
 
+.contact {
+    flex: 1 2 250px;
+    align-self: center
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
