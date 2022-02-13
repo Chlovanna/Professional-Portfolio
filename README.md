@@ -4,3 +4,9 @@ Description : This portfolio showcases the several projects completed during the
 **Flexboxes are used through out to interact with the varying media technologies
 ** Use of transition and hover effect
 ** Background images were imported to the website via CSS
+
+
+Website: https://chlovanna.github.io/The-Asset-Why-Not/
+
+
+Developer: Ashley Lawrence
