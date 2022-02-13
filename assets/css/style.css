@@ -4,8 +4,8 @@
     padding: 0;
 }
 :root {
-    --primary: rgb(4, 19, 156);
-    --secondary: rgb(46, 16, 59);
+    --primary: rgb(53, 106, 167);
+    --secondary: rgb(79, 28, 121);
     --tertiary: rgb(252, 252, 252);
     --dark: black;
     --light: rgb(143, 150, 172);
@@ -31,6 +31,7 @@ h4 {
 p {
     margin:0
 }
+
 header {
     padding: 15px 6% 15px 0;
     display: flex;
@@ -85,15 +86,174 @@ main {
     margin-left: auto;
     margin-right: auto;
 }
-.hero{
+
+#bottom {
 background-image: url("../images/Header.png");
 background-size: cover;
 background-position: center;
-background:rgb(9, 9, 228);
-display:flex;
-justify-content: flex-end;
-align-items: flex-end;
+height: 400px;
+width: auto;
+margin-bottom: 25px;
 }
+
+#about-me img {
+    width: 200px;
+    height: 300px;  
+    object-fit: scale-down ;
+   
+}
+
+.flex-container {
+    height: 70vh;
+    width: 80vw;
+    padding: 0.5em;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end ;
+  
+ 
+
+}
+
+.flex-container .surf{
+    align-self: flex-start;
+    
+}
+
+.work-boxes{
+background-color: gold ;
+margin: 1em;
+
+}
+ 
+
+.surf {
+background-image: url("../images/Surf\ Report.jfif");
+border: 5px solid var(--secondary);
+background-color:var(--primary);
+color: var(--tertiary);
+min-height: 150px;
+max-height: 150px;
+display:flex;
+flex-basis: calc(50% - 1em);
+align-items: flex-end;
+padding: 0 0 20px 0;
+margin: 0.5em;
+text-decoration: none;
+background-blend-mode: soft-light;
+background-size: 150%;
+transition: all 0.7s;
+font-size: 0.9rem;
+}
+
+.wall{
+    background-image: url("../images/LED\ Wall.jfif");
+    border: 5px solid var(--secondary);
+    background-color:var(--primary);
+    color: var(--tertiary);
+    min-height: 150px;
+    max-height: 150px;
+    display:flex;
+    flex-basis: calc(50% - 1em);
+    align-items: flex-end;
+    padding: 0 0 20px 0;
+    margin: 0.5em;
+    text-decoration: none;
+    background-blend-mode: soft-light;
+    background-size: 150%;
+    transition: all 0.7s;
+    font-size: 0.9rem;
+    }
+
+    .calculator {
+        background-image: url("../images/Calculator.jfif");
+        border: 5px solid var(--secondary);
+        background-color:var(--primary);
+        color: var(--tertiary);
+        min-height: 150px;
+        max-height: 150px;
+        display:flex;
+        flex-basis: calc(50% - 1em);
+        align-items: flex-end;
+        padding: 0 0 20px 0;
+        margin: 0.5em;
+        text-decoration: none;
+        background-blend-mode: soft-light;
+        background-size: 150%;
+        transition: all 0.7s;
+        font-size: 0.9rem;
+        }    
+
+     .puzzel {
+            background-image: url("../images/Pastel.jpg");
+            border: 5px solid var(--secondary);
+            background-color:var(--primary);
+            color: var(--tertiary);
+            min-height: 150px;
+            max-height: 150px;
+            display:flex;
+            flex-basis: calc(50% - 1em);
+            align-items: flex-end;
+            padding: 0 0 20px 0;
+            margin: 0.5em;
+            text-decoration: none;
+            background-blend-mode: soft-light;
+            background-size: 150%;
+            transition: all 0.7s;
+            font-size: 0.9rem;
+            }
+
+
+            .buddy {
+                background-image: url("../images/run-bg.jpg");
+                border: 5px solid var(--secondary);
+                background-color:var(--primary);
+                color: var(--tertiary);
+                min-height: 150px;
+                max-height: 150px;
+                display:flex;
+                flex-basis: calc(50% - 1em);
+                align-items: flex-end;
+                padding: 0 0 20px 0;
+                margin: 0.5em;
+                text-decoration: none;
+                background-blend-mode: soft-light;
+                background-size: 150%;
+                transition: all 0.7s;
+                font-size: 0.9rem;
+                }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
    
 
