@@ -5,10 +5,10 @@
 }
 /* to assign color variables */
 :root {
-  --primary: rgb(53, 106, 167);
-  --secondary: rgb(79, 28, 121);
+  --primary: rgb(3, 14, 75) ;
+  --secondary:saddlebrown;
   --tertiary: rgb(252, 252, 252);
-  --dark: black;
+  --dark: rgb(59, 56, 56);
   --light: rgb(143, 150, 172);
 }
 /* to style the body*/
@@ -16,7 +16,7 @@ body {
   background-color: var(--light);
   margin: 0;
   padding: 0;
-  color: var(--primary);
+  color: var(--secondary);
   line-height: 1.5;
   font-family: "Times New Roman", Times, serif;
 }
@@ -37,7 +37,7 @@ header {
   align-items: center;
   font-family: fantasy;
   background-color: var(--secondary);
-  box-shadow: 0 5px 35px gray;
+  box-shadow: 0 5px 35px rgb(136, 5, 5);
 }
 
 header h1 {
@@ -212,6 +212,8 @@ main {
 .contact address a:hover {
   background-size: 100% 88%;
   color: var(--secondary);
+  background: saddlebrown;
+  color: papayawhip;;
 }
 
 /* end of main section*/
@@ -219,24 +221,24 @@ main {
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 912px) {
-    header nav a {
-      /* this will be applied on any screen smaller than 980px */
-     font-size: 1.4rem;
+    header h1 {
+      /* this will be applied on any screen smaller than 912px */
+     font-size: 4vw;
     }
   }
   
   /* MEDIA QUERY FOR TABLETS AND SMALLER */
   @media screen and (max-width: 912px) {
-    header nav a {
+    .section-area {
       /* this will be applied on any screen between 768px and 912px */
       font-size: 1.4rem;
     }
   }
   
   /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
-  @media screen and (max-width: 575px) {
-    header h1 {
-      /* this will be applied on any screen smaller than 575px */
-      font-size: 100px;
+  @media screen and (max-width: 525px) {
+     work-boxes{
+      /* this will be applied on any screen smaller than 412px */
+      margin: 0.5rem;
     }
   }
